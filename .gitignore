@@ -1,0 +1,10 @@
+/__pycache__/
+
+*~
+
+*.log
+
+# Ignora archivos del sistema Mac 
+.DS_store
+
+.ipynb_checkpoints
