@@ -2,6 +2,8 @@
 
 Se ha encargado la creación de una base de datos para un cliente que desea retomar su videoclub. Se nos han dado una serie de archivos csv que encontramos en la carpeta raw_data y se nos ha pedido la creación de una base de datos relacional para llevar un control del negocio. En principio no se ha establecido ninguna restricción, sin embargo nuestro cliente afirma que los cliente que solía tener eran bastante exigentes y pide que la estructura se encuentre bien organizada. Además le gustaría que proporcionaramos de antemano soluciones a problemas recurrentes que puedan tener los clientes del videoclub FilmFinder.
 
+![portada](https://github.com/jvr0/3.5-blockbuster/blob/main/img/pp.png)
+
 **Índice**
 
 1. [Limpieza de datos](#id1)
