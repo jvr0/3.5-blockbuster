@@ -2,8 +2,6 @@
 
 Se ha encargado la creación de una base de datos para un cliente que desea retomar su videoclub. Se nos han dado una serie de archivos csv que encontramos en la carpeta raw_data y se nos ha pedido la creación de una base de datos relacional para llevar un control del negocio. En principio no se ha establecido ninguna restricción, sin embargo nuestro cliente afirma que los cliente que solía tener eran bastante exigentes y pide que la estructura se encuentre bien organizada. Además le gustaría que proporcionaramos de antemano soluciones a problemas recurrentes que puedan tener los clientes del videoclub FilmFinder.
 
-![pp](https://github.com/jvr0/3.5-blockbuster/blob/main/img/Power.png)
-
 **Índice**
 
 1. [Limpieza de datos](#id1)
@@ -14,7 +12,7 @@ Se ha encargado la creación de una base de datos para un cliente que desea reto
 
 ## 1. Limpieza de datos
 
-Para la primera fase del encargo empezarémos explorando y limpiando los datos para su posterior utilización en la construcción de nuestra base de datos.
+Para la primera fase del encargo empezaremos explorando y limpiando los datos para su posterior utilización en la construcción de nuestra base de datos.
 
 Durante la limpieza encontramos columnas sin valor para nuestro objetivo final, las cuales son eliminadas. También encontramos ciertas categorizaciones que modificamos para mayor profundidad. Es el caso de la columna 'special_features' en film.csv. Esta columna se ha dividido en cuatro nuevas columnas, las cuales han sido rellenadas con booleanos. Al tratar el archivo rental.csv se ha utilizado una función para obtener un mayor acceso a los datos de fecha.
 
@@ -38,3 +36,5 @@ Gracias a estos dos tratamientos podemos desechar la tabla old_HDD.
 ## 3. Utilización de la base de datos
 
 Una vez que se ha creado la estructura y se han establecido las diferentes relaciones entre las tablas pasamos a definir el uso de la estructura. En la carpeta SQL_script encontraremos los scripts utilizados para la creación de las relaciones. Además, se han añadido dos archivos adicionales: 'basic_query.sql' y 'advance_query.sql' en estos se plantean diferentes problemas y sus soluciones para los que nuestro cliente podría utilizar nuestra estructura. 
+
+Además, en esta misma carpeta se ha incluido el archivo  "FilmFinder.sql". Este script permite importar toda la base de datos.
